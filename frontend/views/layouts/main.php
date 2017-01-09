@@ -164,7 +164,7 @@ FrontendAsset::register($this);
         <div class="footer">
             <div class="container">
                 <div class="copywrite">
-                    <p>Copyright © 2016 Minh Đoàn</p>
+                    <p>Copyright © 2016 Minh Đoàn 1</p>
                 </div>
             </div>
         </div>
