@@ -3,9 +3,11 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/E:/DEVERLOPER/xampp/htdocs/minhdoan/frontend/controllers/NewsController.php</file>
-            <file>file:/E:/DEVERLOPER/xampp/htdocs/minhdoan/common/models/business/NewsBusiness.php</file>
-            <file>file:/E:/DEVERLOPER/xampp/htdocs/minhdoan/frontend/views/news/browse.php</file>
+            <file>file:/C:/xampp/htdocs/thietkenoithat/vendor/yiisoft/yii2/web/NotFoundHttpException.php</file>
+            <file>file:/C:/xampp/htdocs/thietkenoithat/common/config/main.php</file>
+            <file>file:/C:/xampp/htdocs/thietkenoithat/frontend/views/layouts/main.php</file>
+            <file>file:/C:/xampp/htdocs/thietkenoithat/frontend/views/index/index.php</file>
+            <file>file:/C:/xampp/htdocs/thietkenoithat/frontend/controllers/IndexController.php</file>
         </group>
     </open-files>
 </project-private>

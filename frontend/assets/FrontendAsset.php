@@ -22,20 +22,18 @@ class FrontendAsset extends AssetBundle {
         'css/jquery.fancybox.css',
         'css/li-scroller.css',
         'css/slick.css',
-	'css/theme.css',
+        'css/theme.css',
         'css/style.css',
     ];
     public $js = [
-        'js/bootstrap.min.js',
-        'js/custom.js',
-        'js/html5shiv.min.js',
-        'js/jquery.fancybox.pack.js',
-        'js/jquery.li-scroller.1.0.js',
         'js/jquery.min.js',
+        'js/wow.min.js',
+        'js/bootstrap.min.js',
+        'js/slick.min.js',
+        'js/jquery.li-scroller.1.0.js',
         'js/jquery.newsTicker.min.js',
-        'js/respond.min.js',
-	'js/slick.min.js',
-	'js/wow.min.js',
+        'js/jquery.fancybox.pack.js',
+        'js/custom.js',
     ];
     public $depends = [
     ];

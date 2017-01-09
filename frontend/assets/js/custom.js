@@ -1,4 +1,5 @@
-jQuery(document).ready(function() {
+jQuery(document).ready(function($) {
+     var $= jQuery.noConflict();
     // for hover dropdown menu
     $('ul.nav li.dropdown').hover(function() {
         $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeIn(200);
@@ -23,7 +24,7 @@ jQuery(document).ready(function() {
         prevButton: $('#prev-button'),
         nextButton: $('#next-button')
     });
-    jQuery(".fancybox-buttons").fancybox({
+    $('.fancybox-buttons').fancybox({
         prevEffect: 'none',
         nextEffect: 'none',
         closeBtn: true,
@@ -34,6 +35,7 @@ jQuery(document).ready(function() {
             buttons: {}
         }
     });
+    
     // jQuery('a.gallery').colorbox();
     //Check to see if the window is top if not then display button
     $(window).scroll(function() {
