@@ -1,0 +1,38 @@
+{
+  "name": "imbo/imboclient",
+  "type": "library",
+  "description": "Client for Imbo servers written in PHP",
+  "keywords": [ "image storage", "image transformation", "image metadata" ],
+  "homepage": "http://www.imbo-project.org/",
+  "license": "MIT",
+  "authors": [{
+      "name": "Christer Edvartsen",
+      "email": "cogo@starzinger.net",
+      "role": "Project lead",
+      "homepage": "http://cogo.wordpress.com"
+    }, {
+      "name": "Espen Hovlandsdal",
+      "email": "espen@hovlandsdal.com",
+      "role": "Developer",
+      "homepage": "http://espen.codes"
+    }
+  ],
+  "require": {
+    "php": ">=5.3.3",
+    "guzzle/guzzle": "~3.8"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~4.0",
+    "symfony/yaml": "~2.1"
+  },
+  "support": {
+    "issues": "https://github.com/imbo/imboclient-php/issues",
+    "irc": "irc://irc.freenode.net/imbo"
+  },
+  "autoload": {
+    "psr-0": {
+      "ImboClient\\": "src/",
+      "ImboClientTest\\": "tests/"
+    }
+  }
+}
