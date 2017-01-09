@@ -8,8 +8,8 @@ return [
         ],
         'db' => [
             'class' => 'yii\db\Connection',
-            'dsn' => 'mysql:host=127.0.0.1;dbname=noithat_minhdoan',
-            'username' => 'noithat_minhdoan',
+            'dsn' => 'mysql:host=127.0.0.1;dbname=thietkenoithat_db',
+            'username' => 'thietkenoithat',
             'password' => '123456',
             'charset' => 'utf8',
         ],
