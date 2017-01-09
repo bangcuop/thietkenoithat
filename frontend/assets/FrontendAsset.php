@@ -14,24 +14,28 @@ class FrontendAsset extends AssetBundle {
 
     public $sourcePath = '@frontend/assets/';
     public $css = [
-        'css/bootstrap.css',
-        'css/style.css',
-        'css/megamenu.css',
-        'css/bootstrap.css',
-        'css/form.css',
-        'css/jquery-ui.css',
-        'css/etalage.css',
+        'css/animate.css',
+        'css/bootstrap.min.css',
+        'css/font.css',
+        'css/bootstrap.min.css',
         'css/font-awesome.min.css',
+        'css/jquery.fancybox.css',
+        'css/li-scroller.css',
+        'css/slick.css',
+	'css/theme.css',
+        'css/style.css',
     ];
     public $js = [
-        'js/jquery-1.11.1.min.js',
-        'js/megamenu.js',
-        'js/menu_jquery.js',
-        'js/simpleCart.min.js',
-        'js/responsiveslides.min.js',
-        'js/jquery.flexisel.js',
-        'js/jquery.etalage.min.js',
+        'js/bootstrap.min.js',
         'js/custom.js',
+        'js/html5shiv.min.js',
+        'js/jquery.fancybox.pack.js',
+        'js/jquery.li-scroller.1.0.js',
+        'js/jquery.min.js',
+        'js/jquery.newsTicker.min.js',
+        'js/respond.min.js',
+	'js/slick.min.js',
+	'js/wow.min.js',
     ];
     public $depends = [
     ];
