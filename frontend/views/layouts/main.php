@@ -33,7 +33,6 @@ FrontendAsset::register($this);
         <link rel="canonical" href="<?= $this->context->canonical ?>" />
         <?php $this->head() ?>
         <link href='http://fonts.googleapis.com/css?family=Montserrat|Raleway:400,200,300,500,600,700,800,900,100' rel='stylesheet' type='text/css'>
-        <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
     </head>
     <body>
         <?php $this->beginBody() ?>
@@ -164,10 +163,79 @@ FrontendAsset::register($this);
         <div class="footer">
             <div class="container">
                 <div class="copywrite">
-                    <p>Copyright © 2016 Minh Đoàn 1</p>
+                    <p>Copyright © 2016 Minh Đoàn</p>
                 </div>
             </div>
         </div>
+        
+<a class="scrollToTop" href="#"><i class="fa fa-angle-up"></i></a>
+<div class="container">
+    <header id="header">
+    <div class="row">
+      <div class="col-lg-12 col-md-12 col-sm-12">
+        <div class="header_top">
+          <div class="header_top_left">
+            <ul class="top_nav">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="pages/contact.html">Contact</a></li>
+            </ul>
+          </div>
+          <div class="header_top_right">
+            <p>Friday, December 05, 2045</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-12 col-md-12 col-sm-12">
+        <div class="header_bottom">
+          <div class="logo_area"><a href="index.html" class="logo"><img src="images/logo.jpg" alt=""></a></div>
+          <div class="add_banner"><a href="#"><img src="images/addbanner_728x90_V1.jpg" alt=""></a></div>
+        </div>
+      </div>
+    </div>
+  </header>
+    <footer id="footer">
+    <div class="footer_top">
+      <div class="row">
+        <div class="col-lg-4 col-md-4 col-sm-4">
+          <div class="footer_widget wow fadeInLeftBig">
+            <h2>Flickr Images</h2>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-4">
+          <div class="footer_widget wow fadeInDown">
+            <h2>Tag</h2>
+            <ul class="tag_nav">
+              <li><a href="#">Games</a></li>
+              <li><a href="#">Sports</a></li>
+              <li><a href="#">Fashion</a></li>
+              <li><a href="#">Business</a></li>
+              <li><a href="#">Life &amp; Style</a></li>
+              <li><a href="#">Technology</a></li>
+              <li><a href="#">Photo</a></li>
+              <li><a href="#">Slider</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-4">
+          <div class="footer_widget wow fadeInRightBig">
+            <h2>Contact</h2>
+            <p>Chuyên thiết kế nội thất nhà ở, cafe, chung cư, biệt thự. Với nhiều phong cách phù hợp với nhu cầu của khách hàng.
+                Đội ngũ nhân viên năng động trẻ trung sẽ luôn làm hài lòng khách hàng.</p>
+            <address>
+            Ngõ 90 Nguyễn Tuân Hà Nội, USA Phone: 096.439.3333
+            </address>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer_bottom">
+      <p class="copyright">Copyright &copy; 2045 <a href="index.html">thiết kế nội thất</a></p>
+      <p class="developer">Developed By xTeam</p>
+    </div>
+  </footer>
+    
+</div>
         <?php $this->endBody() ?>
     </body>
 </html>
