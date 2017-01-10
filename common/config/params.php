@@ -10,6 +10,6 @@ return [
     'image' => [
         'root' => "/upload",
         'level' => "0",
-        'baseUrl' => "http://localhost/minhdoan/backend/media",
+        'baseUrl' => "http://localhost/thietkenoithat/backend/media",
     ],
 ];
