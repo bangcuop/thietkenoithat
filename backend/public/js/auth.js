@@ -16,12 +16,10 @@ auth.googleSignin = function() {
 
         gapi.auth.authorize({client_id: clientId, scope: scopes, immediate: false}, function(authResult) {
             gapi.client.load('plus', 'v1', function() {
-                alert('1');
                 var request = gapi.client.plus.people.get({
                     'userId': 'me'
                 });
                 request.execute(function(resp) {
-                    alert('2');
                     if (resp != "" && resp.result != "") {
                         alert(resp.emails[0].value);
                         var user = {
@@ -30,8 +28,6 @@ auth.googleSignin = function() {
                             email: 'liemnh267@gmail.com',
                             description: 'Tên : Nguyễn Hoàng Liêm  , giới tính : Nam',
                         };
-                        alert(user.email);
-                        alert(user.description);
                         ajax({
                             service: '/auth/signin',
                             data: user,
