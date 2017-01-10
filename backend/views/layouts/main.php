@@ -47,7 +47,7 @@ AppAsset::register($this);
         </div><!-- /container -->
         <div class="footer">
             <div class="container">
-                © 2016 <a href="#">MinhDoan</a>
+                © 2016 <a href="#">ThietKeNoiThat</a>
             </div><!-- /container -->
         </div><!-- footer -->
         <div class="top"></div>
