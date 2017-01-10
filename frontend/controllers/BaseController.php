@@ -31,15 +31,15 @@ class BaseController extends Controller {
      * config default
      */
     private function mDefault() {
-        $this->title = "Đồ gỗ cao cấp Minh Đoàn";
-        $this->keywrod = "Đồ gỗ cao cấp Minh Đoàn";
-        $this->description = "Đồ gỗ cao cấp Minh Đoàn";
+        $this->title = "Titan Architecture";
+        $this->keywrod = "Titan Architecture";
+        $this->description = "Titan Architecture";
         /**
          * config default og
          */
         $this->og = [
-            "title" => "Đồ gỗ cao cấp Minh Đoàn",
-            "site_name" => "noithatminhdoan.com",
+            "title" => "Titan Architecture",
+            "site_name" => "titantoancau.com",
             "url" => $this->baseUrl,
             "image" => "",
             "description" => $this->description,

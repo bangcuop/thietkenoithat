@@ -11,6 +11,9 @@ return [
             'dsn' => 'mysql:host=127.0.0.1;dbname=thietkenoithat_db',
             'username' => 'thietkenoithat',
             'password' => '123456',
+//            'dsn' => 'mysql:host=192.168.55.42;dbname=noitha17_minhdoan',
+//            'username' => 'noitha17_minhdoan',
+//            'password' => '123456',
             'charset' => 'utf8',
         ],
         'mailer' => [
